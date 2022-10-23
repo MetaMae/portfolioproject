@@ -1,14 +1,79 @@
 :root {
   --primary-color: #4142e1;
+  --seconday-color: #e8effe;
+  --dark-color: #0d0369;
+}
+
+@media (max-width: 600px) {
+  body {
+    text-align: center;
+  }
+
+  .b-travel {
+    margin-left: auto !important;
+  }
+
+  .bottom-p {
+    margin: auto 20px;
+  }
+
+  .hero {
+    margin-top: 5px !important;
+  }
+  .heroImage {
+    display: none;
+  }
+
+  .mobile-row {
+    margin: auto 0;
+  }
+
+  .p-one {
+    margin-top: -50px;
+    margin-left: 10px !important;
+  }
+
+  .project-img {
+    display: none;
+  }
+
+  .second-section-p {
+    margin-left: 0 !important;
+    max-width: 350px;
+  }
 }
 
 h1 {
   font-size: 70px;
 }
 
+h2 {
+  margin: 80px auto;
+  text-align: center;
+}
+
 h3 {
-  font-weight: 300;
-  margin-top: 20px;
+  font-weight: normal;
+}
+
+.bottom {
+  margin: 120px 0 70px 0;
+}
+
+.bottom-half {
+  background: rgb(40, 121, 9);
+  background: linear-gradient(
+    180deg,
+    rgba(40, 121, 9, 0) 0%,
+    rgba(232, 239, 254, 1) 16%,
+    rgba(175, 193, 231, 1) 55%,
+    rgba(103, 129, 184, 1) 100%
+  );
+  padding-bottom: 100px;
+}
+
+.bottom-p {
+  text-align: center;
 }
 
 .button {
@@ -19,16 +84,91 @@ h3 {
   padding: 10px 20px;
 }
 
+.buttons {
+  margin-top: 10px;
+  margin-left: -30px;
+}
+
+.button:hover {
+  background-color: var(--seconday-color);
+  color: black;
+}
+
+.credentials {
+  margin-top: 120px;
+}
+
+.footer {
+  max-width: 1000px;
+  text-align: center;
+  margin: 200px auto 50px auto;
+}
+
+.footer-text {
+  color: var(--dark-color);
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.footer-text:hover {
+  color: var(--seconday-color);
+}
+
 .hero {
-  margin: 90px auto 30px auto;
+  margin: 60px auto 30px auto;
   max-width: 1150px;
 }
 
 .heroImage {
   width: 90%;
-  margin: -35px auto auto 100px;
+  margin: 0 auto auto 110px;
 }
 
 .heroText {
-  margin-top: 95px;
+  margin-top: 80px;
+}
+
+.icons {
+  color: var(--dark-color);
+  font-size: 40px;
+}
+
+.links {
+  color: var(--dark-color);
+  text-decoration: none;
+}
+
+.links:hover {
+  color: var(--seconday-color);
+}
+
+.navigation-menu {
+  background-color: var(--seconday-color);
+  padding: 20px 20px;
+}
+
+.project-img {
+  width: 80%;
+}
+
+.second-cols {
+  padding: 20px;
+}
+
+.second-row {
+  margin: 80px auto;
+}
+
+.second-section {
+  margin: 90px auto 50px auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.second-section-p {
+  margin: 40px -30px;
+}
+
+.website-clicks {
+  max-width: 900px;
 }
