@@ -4,6 +4,8 @@
   --dark-color: #0d0369;
 }
 
+/* Home Page */
+
 @media (max-width: 600px) {
   body {
     text-align: center;
@@ -171,4 +173,19 @@ h3 {
 
 .website-clicks {
   max-width: 900px;
+}
+
+/* About Page */
+
+.about-me-section {
+  background-color: var(--seconday-color);
+}
+
+.other-heading {
+  margin: 70px auto;
+  text-align: center;
+}
+
+.list-space {
+  margin: 60px 10px;
 }
