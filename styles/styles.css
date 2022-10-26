@@ -21,6 +21,14 @@
     margin: auto 20px;
   }
 
+  .buttonOne {
+    margin: -40px auto 0 10px !important;
+  }
+
+  .buttonTwo {
+    margin: 20px auto -30px 10px !important;
+  }
+
   .hero {
     margin-top: 5px !important;
   }
@@ -200,4 +208,29 @@ h3 {
 
 .list-space {
   margin: 60px 10px;
+}
+
+/* My Work Page */
+
+h4 {
+  margin-top: -20px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.buttonOne {
+  margin: 40px auto 0 170px;
+}
+
+.buttonTwo {
+  margin: 58px auto 0 190px;
+}
+
+.travelphoto {
+  padding-left: 50px;
+  width: 90%;
+}
+
+.weatherphoto {
+  width: 100%;
 }
