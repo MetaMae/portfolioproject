@@ -4,11 +4,13 @@
   --dark-color: #0d0369;
 }
 
-/* Home Page */
-
 @media (max-width: 600px) {
   body {
     text-align: center;
+  }
+
+  .about-p {
+    margin-top: 5px !important;
   }
 
   .b-travel {
@@ -26,8 +28,16 @@
     display: none;
   }
 
+  .list-two {
+    margin-top: -20px !important;
+  }
+
   .mobile-row {
     margin: auto 0;
+  }
+
+  .other-heading {
+    margin: 40px auto !important;
   }
 
   .p-one {
@@ -44,6 +54,8 @@
     max-width: 350px;
   }
 }
+
+/* Home Page */
 
 h1 {
   font-size: 70px;
