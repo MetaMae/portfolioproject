@@ -26,14 +26,22 @@
   }
 
   .buttonTwo {
-    margin: 20px auto -30px 10px !important;
+    margin: 20px auto -20px 10px !important;
+  }
+
+  .contact-head {
   }
 
   .hero {
     margin-top: 5px !important;
   }
+
   .heroImage {
     display: none;
+  }
+
+  .home-hero {
+    margin-top: 50px !important;
   }
 
   .list-two {
@@ -78,6 +86,10 @@ h3 {
   font-weight: normal;
 }
 
+.about-hero {
+  margin-top: 150px !important;
+}
+
 .bottom {
   margin: 120px 0 70px 0;
 }
@@ -116,8 +128,35 @@ h3 {
   color: black;
 }
 
+.contact-head {
+  margin-top: 150px !important;
+}
+
 .credentials {
   margin-top: 120px;
+}
+
+.contact-h4 {
+  margin-bottom: 20px;
+}
+
+.contact-title {
+  color: var(--primary-color);
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contact-p {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contact-link {
+  color: var(--primary-color);
+}
+
+.contact-link:hover {
+  color: var(--seconday-color);
 }
 
 .footer {
@@ -148,6 +187,10 @@ h3 {
 
 .heroText {
   margin-top: 80px;
+}
+
+.home-hero {
+  margin-top: 100px;
 }
 
 .icons {
@@ -193,6 +236,10 @@ h3 {
 
 .website-clicks {
   max-width: 900px;
+}
+
+.work-hero {
+  margin-top: 150px !important;
 }
 
 /* About Page */
